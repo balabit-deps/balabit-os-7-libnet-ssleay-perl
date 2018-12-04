@@ -1,3 +1,16 @@
+libnet-ssleay-perl (1.84-1ubuntu0.1) bionic; urgency=medium
+
+  * Cherrypick patches prepared by Damyan Ivanov from 1.85-2 for OpenSSL
+    1.1.1 support (LP: #1797386):
+    + add five patches from fedora
+    + patch openssl version check about SSL_CTX_set_num_tickets existence
+    + add SSL[_CTX]_(set|get)_security_level routines
+    + tests: set security level to 1 when loading certificates with small keys
+    + patch set_cert_and_key to not return error when none of the underlying
+      routines does
+
+ -- Dimitri John Ledkov <xnox@ubuntu.com>  Tue, 04 Dec 2018 14:05:51 +0000
+
 libnet-ssleay-perl (1.84-1build1) bionic; urgency=medium
 
   * No-change rebuild against perl-openssl-abi-1.1.0
