@@ -1,3 +1,9 @@
+libnet-ssleay-perl (1.84-1ubuntu0.1bb1) bionic; urgency=medium
+
+  * Bump build dependency openssl version >= 1.1.1-1ubuntu2.1~18.04.3bb1
+
+ -- Arnold Czémán <arnold.czeman@balabit.com>  Wed, 26 Jun 2019 16:26:18 +0200
+
 libnet-ssleay-perl (1.84-1ubuntu0.1) bionic; urgency=medium
 
   * Cherrypick patches prepared by Damyan Ivanov from 1.85-2 for OpenSSL
