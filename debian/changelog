@@ -1,3 +1,9 @@
+libnet-ssleay-perl (1.84-1ubuntu0.1bb2) bionic; urgency=medium
+
+  * Balabit patched version
+
+ -- Balabit Platform Team <devnull@dev.null>  Thu, 27 Jun 2019 13:25:53 +0200
+
 libnet-ssleay-perl (1.84-1ubuntu0.1bb1) bionic; urgency=medium
 
   * Bump build dependency openssl version >= 1.1.1-1ubuntu2.1~18.04.3bb1
