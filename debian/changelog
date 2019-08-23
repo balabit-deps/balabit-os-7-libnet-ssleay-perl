@@ -1,3 +1,9 @@
+libnet-ssleay-perl (1.84-1ubuntu0.2bb1) bionic; urgency=medium
+
+  * Balabit patched version
+
+ -- Balabit Platform Team <devnull@dev.null>  Fri, 23 Aug 2019 16:32:07 +0200
+
 libnet-ssleay-perl (1.84-1ubuntu0.2) bionic-security; urgency=medium
 
   * No-change rebuild in -security pocket now that OpenSSL 1.1.1 is
